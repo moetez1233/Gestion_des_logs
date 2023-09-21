@@ -21,5 +21,7 @@ private static final Logger log = LogManager.getLogger(GestionDesLogsApplication
 		log.warn("Hey, This is a warning!");
 		log.error("Oops! We have an Error. OK");
 		log.fatal("Damn! Fatal error. Please fix me.");
+
+
 	}
 }
