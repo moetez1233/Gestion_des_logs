@@ -1,3 +1,4 @@
+Pour accéder au site tapez : **http://51.20.67.63/**
 ### Gestion des Logs 
 La journalisation (logging) en Java est un processus essentiel pour enregistrer des informations et des événements dans une application Java. Elle permet aux développeurs de collecter des données sur le comportement de l'application en cours d'exécution, ce qui est précieux pour le débogage, la surveillance, la maintenance et la compréhension du flux de travail de l'applicationVoici une description détaillée de la journalisation en Java :
 
