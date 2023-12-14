@@ -186,8 +186,9 @@ public class PdfExtraction implements IpdfExtraction{
 
         }
 
-        File file=new File(this.getClass().getClassLoader().getResource("fichier_excel.xlsx").getPath());
-        if(file.exists()){
+
+        if(this.getClass().getClassLoader().getResource("fichier_excel.xlsx") != null){
+            File file=new File(this.getClass().getClassLoader().getResource("fichier_excel.xlsx").getPath());
             file.delete();
         }
 
